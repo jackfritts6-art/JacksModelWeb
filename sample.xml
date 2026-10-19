@@ -1,0 +1,65 @@
+<telegraph_log>
+    <transmission>
+        <sender>Valentia</sender>
+        <recipient>Newfoundland</recipient>
+        <message time="13:30">Can you read? We have two Government messages. Will you take?</message>
+    </transmission>
+    
+    <transmission>
+        <sender>Newfoundland</sender>
+        <recipient>Valentia</recipient>
+        <message time="13:37">Try, but send.</message>
+    </transmission>
+    
+    <transmission from="v" to="n">
+        <sender>Valentia</sender>
+        <recipient>Newfoundland</recipient>
+        <message time="15:41">The Military Secretary to Commander-in-Chief, Horse Guards, London. To General Trollope, Halifax, Nova Scotia: The Sixty second Regiment is not to return to England.</message>
+    </transmission>
+    
+    <annotation>This message and that which will be found further on in regard to the Thirty ninth Regiment, saved to the British Government the sum of fifty thousand pounds (250,000 dollars), by avoiding the shipment and transportation of troops.</annotation>
+    
+    <transmission>
+        <sender>Newfoundland</sender>
+        <recipient>Valentia</recipient>
+        <message>The Military Secretary to Commander-in-Chief, Horse Guards, London.</message>
+        <message>‘Trollope,’ understand. Go on after Scotia.</message>
+        <message>Is it finished after ‘England?’</message>
+    </transmission>
+    
+    <transmission>
+        <sender>Valentia</sender>
+        <recipient>Newfoundland</recipient>
+        <message time="16:00">Yes. Now take another. Are you ready?</message>
+    </transmission>
+    
+    <transmission>
+        <sender>Newfoundland</sender>
+        <recipient>Valentia</recipient>
+        <message time="16:30">Yes, send.</message>
+    </transmission>
+    
+    <transmission>
+        <sender>Valentia</sender>
+        <recipient>Newfoundland</recipient>
+        <message time="21:30">The Military Secretary to Commander-in-Chief, Horse Guards, to General Officer commanding, Montreal, Canada:The Thirty ninth Regiment is not to return to England.</message>
+    </transmission>
+    
+    <transmission>
+        <sender>Newfoundland</sender>
+        <recipient>Valentia</recipient>
+        <message>I want you to repeat ‘Canada.’</message>
+    </transmission>
+    
+    <transmission>
+        <sender>Valentia</sender>
+        <recipient>Newfoundland</recipient>
+        <message time="22:30">Can’t read. Try ‘Daniel’s.</message>
+    </transmission>
+    
+    <transmission>
+        <sender>Newfoundland</sender>
+        <recipient>Valentia</recipient>
+        <message time="00:00">Repeat from ‘Canada’ to ‘return.’</message>
+    </transmission>
+</telegraph_log>
