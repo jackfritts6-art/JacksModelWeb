@@ -178,4 +178,7 @@ body {
     border-right: none;
     border-bottom: 1px solid #e2e8f0;
   }
+}.your-element-class {
+    background-color: green; /* or use a specific hex code like #2e7d32 */
+    color: transparent;
 }
