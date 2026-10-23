@@ -183,4 +183,22 @@ body {
 }h1 {
     background-color: green;
     color: transparent;
+}/* Style for your name heading */
+.profile-heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #003057; /* Professional navy/blue tone */
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
+}
+
+/* Style for the professional paragraph */
+.professional-bio {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4a5568; /* Soft dark gray for readability */
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin-bottom: 1.5rem;
 }
