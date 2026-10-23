@@ -169,7 +169,6 @@ body {
   margin-bottom: 6px;
 }
 
-/* Responsive design for mobile screens */
 @media (max-width: 768px) {
   .resume-container {
     grid-template-columns: 1fr;
@@ -180,5 +179,8 @@ body {
   }
 }.your-element-class {
     background-color: green; /* or use a specific hex code like #2e7d32 */
+    color: transparent;
+}h1 {
+    background-color: green;
     color: transparent;
 }
