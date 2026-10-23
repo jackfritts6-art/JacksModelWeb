@@ -31,4 +31,151 @@ img {
 .fun-card:hover {
   transform: translate(2px, 2px);
   box-shadow: 4px 4px 0px #000000;
+}/* Reset and Base Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #2d3748;
+  background-color: #f7fafc;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+/* Main Container Grid */
+.resume-container {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Sidebar Styling */
+.resume-sidebar {
+  background-color: #edf2f7;
+  padding: 40px 30px;
+  border-right: 1px solid #e2e8f0;
+}
+
+.resume-sidebar h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 4px;
+}
+
+.job-title {
+  font-size: 0.95rem;
+  color: #4a5568;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.section-block {
+  margin-bottom: 30px;
+}
+
+.section-block h3, .resume-main h2 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #718096;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #cbd5e0;
+  padding-bottom: 5px;
+}
+
+.resume-sidebar ul {
+  list-style: none;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+.resume-sidebar li {
+  margin-bottom: 8px;
+  word-break: break-all;
+}
+
+/* Skills Tag Cloud */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tags span {
+  background: #ffffff;
+  color: #2d3748;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid #cbd5e0;
+}
+
+/* Main Content Styling */
+.resume-main {
+  padding: 40px;
+}
+
+.resume-main h2 {
+  margin-bottom: 25px;
+}
+
+.job-item {
+  margin-bottom: 30px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.job-item h3 {
+  font-size: 1.1rem;
+  color: #1a202c;
+  font-weight: 600;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: #718096;
+  font-weight: 500;
+}
+
+.company {
+  font-size: 0.95rem;
+  color: #3182ce;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.resume-main ul {
+  margin-left: 20px;
+  font-size: 0.95rem;
+  color: #4a5568;
+}
+
+.resume-main li {
+  margin-bottom: 6px;
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 768px) {
+  .resume-container {
+    grid-template-columns: 1fr;
+  }
+  .resume-sidebar {
+    border-right: none;
+    border-bottom: 1px solid #e2e8f0;
+  }
 }
